@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mon Livre de Recettes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Mon Livre de Recettes</h1>
+    <p class="subtitle">Recettes simples et maison</p>
+    <div class="search-row">
+      <input id="search" type="search" placeholder="Rechercher une recette ou un ingrédient..." />
+      <button id="clear">Effacer</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="recipes" class="cards"></section>
+  </main>
+
+  <!-- Détail recette (modal) -->
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <button id="closeModal" class="close">×</button>
+      <h2 id="modal-title"></h2>
+      <p id="modal-description"></p>
+      <h3>Ingrédients</h3>
+      <ul id="modal-ingredients"></ul>
+      <h3>Étapes</h3>
+      <ol id="modal-steps"></ol>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>Fait avec ❤️ — Ajoutez vos recettes dans le fichier <code>recipes.json</code></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
