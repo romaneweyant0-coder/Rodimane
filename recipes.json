@@ -1,0 +1,82 @@
+{
+  "recipes": [
+    {
+      "id": "rec-001",
+      "title": "Pâtes à la carbonara",
+      "description": "Recette italienne classique, crémeuse sans crème ajoutée (version traditionnelle).",
+      "category": "Plat principal",
+      "tags": ["italien", "pâtes", "rapide"],
+      "servings": 4,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 15,
+      "ingredients": [
+        "400 g de spaghettis",
+        "150 g de guanciale ou pancetta (ou lardons)",
+        "3 œufs entiers + 1 jaune",
+        "100 g de pecorino romano râpé (ou parmesan)",
+        "Poivre noir fraîchement moulu",
+        "Sel"
+      ],
+      "steps": [
+        "Faire cuire les pâtes dans une grande casserole d'eau salée selon les indications jusqu'à al dente.",
+        "Couper la guanciale en petits morceaux et la faire revenir à feu moyen jusqu'à ce qu'elle soit croustillante. Réserver.",
+        "Dans un bol, battre les œufs et le jaune avec le fromage râpé et du poivre.",
+        "Égoutter les pâtes en gardant un peu d'eau de cuisson. Remettre les pâtes chaudes dans la casserole hors du feu, ajouter la guanciale puis le mélange œufs-fromage en remuant rapidement pour obtenir une sauce onctueuse (ajouter un peu d'eau de cuisson si nécessaire).",
+        "Servir immédiatement avec un supplément de fromage et de poivre."
+      ],
+      "image": "images/carbonara.jpg"
+    },
+    {
+      "id": "rec-002",
+      "title": "Salade niçoise",
+      "description": "Salade fraîche et complète, idéale en été.",
+      "category": "Salade",
+      "tags": ["salade", "poisson", "rapide", "healthy"],
+      "servings": 2,
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 10,
+      "ingredients": [
+        "200 g de tomates cerises",
+        "150 g de haricots verts",
+        "2 œufs durs",
+        "100 g de thon en conserve (à l'huile, égoutté)",
+        "50 g d'olives noires",
+        "1 petite laitue ou mélange de jeunes pousses",
+        "1 petit oignon rouge",
+        "Vinaigrette: huile d'olive, vinaigre, moutarde, sel, poivre"
+      ],
+      "steps": [
+        "Cuire les haricots verts à l'eau bouillante salée 5-6 minutes puis plonger dans l'eau froide.",
+        "Cuire les œufs jusqu'à ce qu'ils soient durs, puis écaler et couper en quartiers.",
+        "Couper les tomates et l'oignon, disposer la salade dans un plat, ajouter les haricots, les œufs, le thon et les olives.",
+        "Assaisonner avec la vinaigrette avant de servir."
+      ],
+      "image": "images/salade_nicoise.jpg"
+    },
+    {
+      "id": "rec-003",
+      "title": "Crêpes faciles",
+      "description": "Pâte à crêpes simple, pour sucré ou salé selon la garniture.",
+      "category": "Dessert",
+      "tags": ["dessert", "sucré", "petit-déjeuner"],
+      "servings": 6,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 20,
+      "ingredients": [
+        "250 g de farine",
+        "3 œufs",
+        "500 ml de lait",
+        "2 cuillères à soupe d'huile ou 30 g de beurre fondu",
+        "1 pincée de sel",
+        "2 cuillères à soupe de sucre (si sucré)"
+      ],
+      "steps": [
+        "Mélanger la farine, le sel et le sucre (si utilisé).",
+        "Ajouter les œufs puis incorporer petit à petit le lait en fouettant pour éviter les grumeaux.",
+        "Ajouter l'huile ou le beurre fondu et laisser reposer 30 minutes si possible.",
+        "Cuire les crêpes dans une poêle chaude légèrement huilée, 1 à 2 minutes par face."
+      ],
+      "image": "images/crepes.jpg"
+    }
+  ]
+}
