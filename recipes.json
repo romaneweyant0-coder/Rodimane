@@ -2,81 +2,172 @@
   "recipes": [
     {
       "id": "rec-001",
-      "title": "Pâtes à la carbonara",
-      "description": "Recette italienne classique, crémeuse sans crème ajoutée (version traditionnelle).",
-      "category": "Plat principal",
-      "tags": ["italien", "pâtes", "rapide"],
-      "servings": 4,
-      "prepTimeMinutes": 10,
-      "cookTimeMinutes": 15,
+      "title": "Omelette française simple",
+      "description": "Omelette moelleuse faite en quelques minutes. Idéale au petit-déjeuner ou en dîner léger.",
+      "category": "Petit-déjeuner",
+      "tags": ["rapide", "oeuf", "facile"],
+      "servings": 1,
+      "prepTimeMinutes": 2,
+      "cookTimeMinutes": 5,
       "ingredients": [
-        "400 g de spaghettis",
-        "150 g de guanciale ou pancetta (ou lardons)",
-        "3 œufs entiers + 1 jaune",
-        "100 g de pecorino romano râpé (ou parmesan)",
-        "Poivre noir fraîchement moulu",
-        "Sel"
+        "2 œufs",
+        "1 cuillère à soupe de lait (optionnel)",
+        "1 noix de beurre",
+        "Sel et poivre"
       ],
       "steps": [
-        "Faire cuire les pâtes dans une grande casserole d'eau salée selon les indications jusqu'à al dente.",
-        "Couper la guanciale en petits morceaux et la faire revenir à feu moyen jusqu'à ce qu'elle soit croustillante. Réserver.",
-        "Dans un bol, battre les œufs et le jaune avec le fromage râpé et du poivre.",
-        "Égoutter les pâtes en gardant un peu d'eau de cuisson. Remettre les pâtes chaudes dans la casserole hors du feu, ajouter la guanciale puis le mélange œufs-fromage en remuant rapidement pour obtenir une sauce onctueuse (ajouter un peu d'eau de cuisson si nécessaire).",
-        "Servir immédiatement avec un supplément de fromage et de poivre."
+        "Battre les œufs avec le lait, le sel et le poivre.",
+        "Faire fondre le beurre dans une petite poêle à feu moyen.",
+        "Verser les œufs battus et cuire en remuant légèrement jusqu'à ce que l'omelette soit prise mais encore moelleuse.",
+        "Plier et servir chaud."
       ],
-      "image": "images/carbonara.jpg"
+      "image": "images/omelette.jpg"
     },
     {
       "id": "rec-002",
-      "title": "Salade niçoise",
-      "description": "Salade fraîche et complète, idéale en été.",
-      "category": "Salade",
-      "tags": ["salade", "poisson", "rapide", "healthy"],
-      "servings": 2,
-      "prepTimeMinutes": 15,
-      "cookTimeMinutes": 10,
+      "title": "Toast avocat rapide",
+      "description": "Toast crémeux à l'avocat, simple et sain pour le petit-déjeuner ou en snack.",
+      "category": "Entrée / Snack",
+      "tags": ["rapide", "végétarien", "simple"],
+      "servings": 1,
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 0,
       "ingredients": [
-        "200 g de tomates cerises",
-        "150 g de haricots verts",
-        "2 œufs durs",
-        "100 g de thon en conserve (à l'huile, égoutté)",
-        "50 g d'olives noires",
-        "1 petite laitue ou mélange de jeunes pousses",
-        "1 petit oignon rouge",
-        "Vinaigrette: huile d'olive, vinaigre, moutarde, sel, poivre"
+        "1 tranche de pain complet",
+        "1/2 avocat mûr",
+        "1/2 citron (jus)",
+        "Sel, poivre",
+        "Optionnel: flocons de piment, graines de sésame"
       ],
       "steps": [
-        "Cuire les haricots verts à l'eau bouillante salée 5-6 minutes puis plonger dans l'eau froide.",
-        "Cuire les œufs jusqu'à ce qu'ils soient durs, puis écaler et couper en quartiers.",
-        "Couper les tomates et l'oignon, disposer la salade dans un plat, ajouter les haricots, les œufs, le thon et les olives.",
-        "Assaisonner avec la vinaigrette avant de servir."
+        "Griller la tranche de pain selon la préférence.",
+        "Écraser l'avocat avec le jus de citron, le sel et le poivre.",
+        "Étaler l'avocat sur le toast et saupoudrer d'épices ou graines si désiré.",
+        "Servir immédiatement."
       ],
-      "image": "images/salade_nicoise.jpg"
+      "image": "images/toast_avocat.jpg"
     },
     {
       "id": "rec-003",
-      "title": "Crêpes faciles",
-      "description": "Pâte à crêpes simple, pour sucré ou salé selon la garniture.",
-      "category": "Dessert",
-      "tags": ["dessert", "sucré", "petit-déjeuner"],
-      "servings": 6,
-      "prepTimeMinutes": 10,
-      "cookTimeMinutes": 20,
+      "title": "Salade tomate-basilic",
+      "description": "Salade fraîche et très simple: tomates, basilic et bonne huile d'olive.",
+      "category": "Salade",
+      "tags": ["rapide", "végétalien", "été"],
+      "servings": 2,
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 0,
       "ingredients": [
-        "250 g de farine",
-        "3 œufs",
-        "500 ml de lait",
-        "2 cuillères à soupe d'huile ou 30 g de beurre fondu",
-        "1 pincée de sel",
-        "2 cuillères à soupe de sucre (si sucré)"
+        "3 tomates mûres",
+        "Quelques feuilles de basilic frais",
+        "2 cuillères à soupe d'huile d'olive",
+        "1 cuillère à soupe de vinaigre balsamique (optionnel)",
+        "Sel et poivre"
       ],
       "steps": [
-        "Mélanger la farine, le sel et le sucre (si utilisé).",
-        "Ajouter les œufs puis incorporer petit à petit le lait en fouettant pour éviter les grumeaux.",
-        "Ajouter l'huile ou le beurre fondu et laisser reposer 30 minutes si possible.",
-        "Cuire les crêpes dans une poêle chaude légèrement huilée, 1 à 2 minutes par face."
+        "Couper les tomates en tranches ou en quartiers.",
+        "Disposer dans un plat, ajouter le basilic effeuillé.",
+        "Assaisonner avec l'huile d'olive, le vinaigre, le sel et le poivre.",
+        "Mélanger légèrement et servir."
       ],
-      "image": "images/crepes.jpg"
+      "image": "images/salade_tomate_basilic.jpg"
+    },
+    {
+      "id": "rec-004",
+      "title": "Riz sauté aux légumes",
+      "description": "Plat végétarien simple à base de riz et de légumes sautés, prêt en 20 minutes.",
+      "category": "Plat principal",
+      "tags": ["rapide", "végétarien", "one-pan"],
+      "servings": 2,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 10,
+      "ingredients": [
+        "200 g de riz cuit (restes de riz parfaits)",
+        "1 carotte coupée en dés",
+        "1/2 poivron coupé en dés",
+        "1 petit oignon émincé",
+        "2 cuillères à soupe de sauce soja",
+        "2 cuillères à soupe d'huile (sésame ou neutre)"
+      ],
+      "steps": [
+        "Chauffer l'huile dans une poêle ou un wok à feu vif.",
+        "Faire revenir l'oignon, puis ajouter la carotte et le poivron et cuire 4-5 minutes.",
+        "Ajouter le riz cuit et la sauce soja, bien mélanger et sauter 2-3 minutes pour réchauffer et imprégner les saveurs.",
+        "Servir chaud."
+      ],
+      "image": "images/riz_sauté.jpg"
+    },
+    {
+      "id": "rec-005",
+      "title": "Poulet rôti simple",
+      "description": "Poulet entier rôti avec citron et herbes — recette facile pour débutant.",
+      "category": "Plat principal",
+      "tags": ["four", "classique", "facile"],
+      "servings": 4,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 70,
+      "ingredients": [
+        "1 petit poulet (1,2–1,5 kg)",
+        "1 citron coupé en deux",
+        "2 cuillères à soupe d'huile d'olive",
+        "Sel, poivre, herbes (thym, romarin)"
+      ],
+      "steps": [
+        "Préchauffer le four à 200°C.",
+        "Badigeonner le poulet d'huile, saler, poivrer et placer le citron et quelques brins d'herbes à l'intérieur du poulet.",
+        "Rôtir environ 60–75 minutes selon la taille (jus clair, température interne ~75°C).",
+        "Laisser reposer 10 minutes avant de découper et servir."
+      ],
+      "image": "images/poulet_roti.jpg"
+    },
+    {
+      "id": "rec-006",
+      "title": "Soupe de lentilles simple",
+      "description": "Soupe santé et rassasiante, facile à préparer et économique.",
+      "category": "Soupe",
+      "tags": ["chaud", "léger", "végétarien"],
+      "servings": 4,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 30,
+      "ingredients": [
+        "200 g de lentilles (vertes ou brunes)",
+        "1 oignon émincé",
+        "2 carottes en rondelles",
+        "1 litre de bouillon de légumes",
+        "1 cuillère à soupe d'huile d'olive",
+        "Sel, poivre, cumin (optionnel)"
+      ],
+      "steps": [
+        "Faire revenir l'oignon dans l'huile jusqu'à translucide.",
+        "Ajouter les carottes, les lentilles et le bouillon.",
+        "Porter à ébullition puis laisser mijoter 20–30 minutes jusqu'à ce que les lentilles soient tendres.",
+        "Mixer si souhaité pour une texture veloutée, assaisonner et servir."
+      ],
+      "image": "images/soupe_lentilles.jpg"
+    },
+    {
+      "id": "rec-007",
+      "title": "Pancakes rapides",
+      "description": "Pancakes moelleux pour le petit-déjeuner, peuvent être servis avec miel, sirop ou fruits.",
+      "category": "Petit-déjeuner",
+      "tags": ["sucré", "facile", "enfants"],
+      "servings": 4,
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 15,
+      "ingredients": [
+        "200 g de farine",
+        "2 cuillères à soupe de sucre",
+        "1 sachet de levure chimique",
+        "1 œuf",
+        "300 ml de lait",
+        "2 cuillères à soupe d'huile ou beurre fondu"
+      ],
+      "steps": [
+        "Mélanger la farine, le sucre et la levure.",
+        "Ajouter l'œuf, le lait et l'huile, mélanger jusqu'à obtention d'une pâte lisse.",
+        "Cuire des petites louches dans une poêle chaude légèrement huilée jusqu'à ce que des bulles apparaissent, retourner et cuire encore 1–2 minutes.",
+        "Servir chaud avec garniture au choix."
+      ],
+      "image": "images/pancakes.jpg"
     }
   ]
 }
